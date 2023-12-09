@@ -1,0 +1,45 @@
+.header {
+    background-color: #000;
+    color: #FFF;
+    padding: 0 80px;
+    width: 100%;
+    min-height: 81px;
+    font-family: 'roboto-regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.header-mail {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'roboto-regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.link {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'roboto-regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.header__nav-link::before {
+    width: 7px;
+    height: 7px;
+    background-color: #FFF;
+}
