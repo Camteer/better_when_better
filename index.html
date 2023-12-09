@@ -1,53 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blanko</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./global/global.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body class="page">
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./global/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body class="page">
     <header class="header">
-        <img src="./img/logo.svg" alt="logo" class="header-logo">
+      <div class="header-section">
+        <img src="./img/logo.svg" alt="logo" class="header-logo" />
         <a href="mailto:mail@blanko.com" class="header-mail">mail@blanko.com</a>
+      </div>
+      <div class="header-section">
         <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link link">
-                        <p>
-                            Landing
-                        </p>   
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link link">
-                        <p>
-                            Landing
-                        </p>   
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="#" class="header__nav-link link">
-                        <p>
-                            Landing
-                        </p>   
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <ol class>
-            <li>
-                <a href="">
-                    <p></p>
-                    <img src="" alt="">
-                </a>
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link link">
+                <p class="header__nav-text">Landing</p>
+              </a>
             </li>
-            
-        </ol>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link link">
+                <p class="header__nav-text">All pages</p>
+              </a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link link">
+                <p class="header__nav-text">Template</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="sing_up link">Sing up</a>
+        <button class="purchase_template button">Purchase template</button>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <section class="template">
+        <article class="template__card">
+          <div class="template__card-title">
+            <h2 class="template__header">Blanko template</h2>
+            <p class="template__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio
+              mauris porttitor amet volutpat.
+            </p>
+            <div class="template__button">
+              <button class="black__button button">Purchase template</button>
+              <button class="white__button button">Other templates</button>
+            </div>
+          </div>
+          <div class="template__card-title">
+            <p class="template__text-discription">
+              “Working with the Mabel template has been a breeze from start to
+              finish.”
+            </p>
+            <div class="template__card-reviews">
+                <p class="text-rated">Rated 5/5</p>
+                <p class="text-reviews">- 129 Reviews</p>
+            </div>
+          </div>
+          
+        </article>
+        <img src="./img/template.svg" alt="" class="image__template">
+      </section>
+      <section class="list">
+        <article class="list__card">
+            <img src="./img/list/speed.svg" alt="" class="list__image">
+            <a href="" class="list__description">
+                <h3 class="list-title">Speed</h3>
+                <p class="list-text">Open a commercial-grade current account from anywhere</p>
+            </a>
+        </article>
+        <article class="list__card">
+            <img src="./img/list/design.svg" alt="" class="list__image">
+            <a href="" class="list__description">
+                <h3 class="list-title">Design</h3>
+                <p class="list-text">Open a commercial-grade current account from anywhere</p>
+            </a>
+            
+        </article>
+        <article class="list__card">
+            <img src="./img/list/modularity.svg" alt="" class="list__image">
+            <a href="" class="list__description">
+                <h3 class="list-title">Modularity</h3>
+                <p class="list-text">Open a commercial-grade current account from anywhere</p>
+            </a>
+        
+        </article>
+      </section>
+      <section class="drunk">
+        
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
