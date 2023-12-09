@@ -27,7 +27,8 @@ ul,
 ol,
 li,
 blockquote,
-fieldset {
+fieldset,
+article {
   margin: 0;
   padding: 0;
 }
